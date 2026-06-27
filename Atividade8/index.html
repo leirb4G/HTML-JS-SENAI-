@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes funções</title>
+</head>
+<body>
+    <main>
+        <h1>Teste de funções matemáticas</h1>
+        <h2>Operações matemáticas</h2>
+        <label for="primeiro-numero">Digite o primeiro numero:</label>
+        <input type="number" id="primeiro-numero">
+        <br>
+        <label for="segundo-numero">Digite o segundo numero:</label>
+        <input type="number" id="segundo-numero">
+        <br>
+        <button onclick="soma()">SOMA</button>
+        <button onclick="subtracao()">SUBTRAÇÃO</button>
+        <button onclick="multiplicacao()">MULTIPLICAÇÃO</button>
+        <button onclick="divisao()">DIVISÃO</button>
+        <br>
+        <p>Seu resultado é: <strong id="resultado"></strong></p>
+        <br>
+        <br>
+        <button onclick="apagarLocalStorage()">Apagar histórico</button>
+
+        <br><br><br>
+        <h2>Calculo imposto</h2>
+        <label for="valor-inicial">Digite o primeiro numero:</label>
+        <input type="number" id="valor-inicial">
+        <button onclick="calculoImposto()">Calcular imposto:</button>
+        <p>Valor a pagar com imposto: <strong id="resultado-imposto"></strong></p>
+        <script src="js/funcoes.js"></script>
+    </main>
+</body>
+</html>

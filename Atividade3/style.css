@@ -1,0 +1,48 @@
+/* Comportamento de rolagem suave ao clicar nos links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilização básica para o cabeçalho fixo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+/* Estilo para as seções do corpo (apenas para demonstração) */
+section {
+    padding: 100px 20px;
+    height: 80vh;
+    border-bottom: 1px solid #ccc;
+}
+
+body {
+    margin-top: 60px;
+    /* Evita que o cabeçalho fixo cubra o conteúdo */
+}
