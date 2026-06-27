@@ -9,7 +9,7 @@ function buscarCep() {
 
 
     if (cepDigitado.length !== 8) {
-        alert("CEP tem tamano inválido, digite um CEP com 8 dígitos");
+        alert("CEP tem tamanho inválido, digite um CEP com 8 dígitos");
         return;
     }
 
